@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">caremote</string>
+    <string name="front">front</string>
+    <string name="front_right">front right</string>
+    <string name="right">right</string>
+    <string name="right_bottom">right bottom</string>
+    <string name="bottom">bottom</string>
+    <string name="bottom_left">bottom left</string>
+    <string name="left">left</string>
+    <string name="left_front">left front</string>
+    <string name="center">center</string>
+    <string name="errorNoBT">Can\'t enable bluetooth</string>
+</resources>

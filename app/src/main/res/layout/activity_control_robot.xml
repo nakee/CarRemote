@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <com.zerokol.views.JoystickView
+        android:id="@+id/joystickView" android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <EditText
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/directionTextView"
+        android:layout_gravity="bottom"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pair with car"
+        android:id="@+id/CarPair"
+        android:onClick="find_devices" />
+</LinearLayout>
